@@ -46,7 +46,7 @@ Open [improvements_multiRocekt_final.ipynb](improvements_multiRocekt_final.ipynb
 | Pooling ablation and direct MPV removal (Table 6 and runtime analysis) | Section **6**, experiments **C1–C4**, including the repeated-seed timing and matched-feature-count blocks. |
 | Classifier and new-pooling comparisons | Run **E**, **F** and **G** for alternative classifiers, added pooling operators and new-only pooling. See [results/improvements_new](results/improvements_new) and the [new-only results by seed](10_new_only_pooling_by_seed.csv). |
 | Corruption robustness and cross-dataset checks | Run **8–8.2** for Experiment D and **9** for Coffee and ECG200. See [Experiment_D_Results](Experiment_D_Results). |
-| Final model selection | Section **12** compares two feature sets and three classifiers over five seeds. Its saved outputs are viewable. Rerunning this section requires the original `multirocket/multirocket_final.py`, which is missing from this checkout. Stage B contains its own frozen implementation. |
+| Final model selection | Section **12** compares two feature sets and three classifiers over five seeds. Run the section after the shared setup. It imports the enhanced transform from [multirocket_extratrees.py](multirocket/multirocket_extratrees.py). |
 
 ### Stage B — Final model benchmark (Tables 7–8 and Figures 1–3)
 
