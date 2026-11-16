@@ -1,0 +1,13 @@
+# Group improvement notebooks (Python 3.13)
+jupyterlab
+numpy
+pandas
+scipy
+matplotlib
+numba
+scikit-learn
+torch
+tqdm
+
+# Optional classifier comparison in Experiment E
+catboost
