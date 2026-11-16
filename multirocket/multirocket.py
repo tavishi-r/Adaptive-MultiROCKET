@@ -11,7 +11,10 @@ from sklearn.linear_model import RidgeClassifierCV
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
-from multirocket.logistic_regression import LogisticRegression
+try:
+    from multirocket.logistic_regression import LogisticRegression
+except ImportError:
+    LogisticRegression = None
 
 
 @njit("float32[:](float64[:,:],int32[:],int32[:],float32[:])",
