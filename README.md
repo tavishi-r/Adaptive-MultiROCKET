@@ -1,4 +1,4 @@
-# Adaptive MultiROCKET
+# Adaptive MultiROCKET -- Ai for Time Series
 
 This project reproduces MultiROCKET for time-series classification and evaluates changes to feature extraction, pooling and downstream classifiers. The improvement experiments focus on **Crop**, with additional checks on **Coffee** and **ECG200**. The notebooks report accuracy, macro F1 and runtime where available.
 
