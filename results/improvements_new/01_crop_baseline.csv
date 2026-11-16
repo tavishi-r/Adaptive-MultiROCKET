@@ -1,0 +1,2 @@
+Dataset,Model,Requested features,Actual features,Accuracy (%),Macro F1 (%),Parameter fit (s),Train transform (s),Test transform (s),Classifier fit (s),Prediction (s),Total measured (s)
+Crop,Original MultiRocket,5000,4704,75.88095238095238,75.47406456376295,0.006980000005569309,0.2698452000040561,0.7622029000049224,89.8362030999997,2.1907410999992862,93.06597230001353

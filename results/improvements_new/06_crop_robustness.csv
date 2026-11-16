@@ -1,0 +1,14 @@
+Corruption,Preprocessing,Accuracy (%),Macro F1 (%)
+Clean,Raw input,75.88095238095238,75.47406456376295
+Gaussian noise 10% SD,Raw input,73.79761904761905,73.39936986237335
+Gaussian noise 10% SD,Interpolation + median filter,68.01190476190476,67.44149358198807
+Gaussian noise 20% SD,Raw input,69.45833333333333,68.91072951032916
+Gaussian noise 20% SD,Interpolation + median filter,66.39285714285714,65.88820326648687
+Missing 10%,Raw input,6.238095238095238,3.672069975178453
+Missing 10%,Interpolation + median filter,67.55952380952381,66.91906773749663
+Missing 20%,Raw input,4.601190476190476,0.9348640917253171
+Missing 20%,Interpolation + median filter,66.13095238095238,65.48754750274432
+Outliers 2%,Raw input,52.40476190476191,53.65651075514716
+Outliers 2%,Interpolation + median filter,68.20238095238095,67.59565837163835
+Combined corruption,Raw input,5.4940476190476195,2.5884654521375006
+Combined corruption,Interpolation + median filter,66.96428571428571,66.22414207372724
