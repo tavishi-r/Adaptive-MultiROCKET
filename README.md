@@ -1,4 +1,4 @@
-# MultiRocket-eXtraTrees
+# MultiRocket-eXtraTrees: Faster Algorithm For Large Datasets
 
 This AI for Time Series project reproduces the original MultiROCKET baseline and evaluates **MultiRocket-eXtraTrees**, our enhanced model for time-series classification. The model replaces mean positive value (MPV) pooling with temporally partitioned proportion of positive values (TP-PPV) and uses an Extra Trees classifier. We selected the model on Crop in Stage A and benchmarked it against the original MultiROCKET in Stage B on Coffee, ECG200, Adiac, ACSF1 and Crop.
 
