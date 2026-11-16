@@ -72,5 +72,5 @@ This repository is distributed under the [GNU General Public License v3.0](LICEN
 | Team member | Contributions |
 | --- | --- |
 | **Tavishi Rastogi** | Experimental setup, reproducibility helpers, Crop validation split and baseline. Led feature-budget reduction (A), feature selection (B), pooling ablations and MPV removal (C), and corruption robustness (D). Ran Coffee and ECG200 sanity checks, consolidated experimental results, and prepared the notebooks and GitHub repository. |
-| **Joviyal Rose Anandan** | Evaluated alternative classifiers (E), implemented and evaluated additional pooling operators (F), and compared new-only pooling with the original and combined feature sets (G). |
 | **Olena Shvoriak** | Reproduced the original benchmark across five datasets and 30 resamples, applied compatibility fixes, led Stage A model selection and Stage B benchmarking and scaling experiments, and contributed to report writing. |
+| **Joviyal Rose Anandan** | Evaluated alternative classifiers (E), implemented and evaluated additional pooling operators (F), and compared new-only pooling with the original and combined feature sets (G). |
