@@ -55,7 +55,8 @@ Open [improvements_multiRocekt_final.ipynb](improvements_multiRocekt_final.ipynb
 Open [MultiRocket_StageB_improvements.ipynb](MultiRocket_StageB_improvements.ipynb) in a fresh Google Colab runtime. Run **1–4** to install dependencies, copy the upstream source and indices, write the frozen Extra Trees model, download the data and warm up Numba.
 
 - For **Figures 1–2**, keep `K = 49`, `N_ESTIMATORS = 300`, `NUM_FEATURES_ORIG = 50000` and `N_RESAMPLES = 10` in the setup cell. Run **5–8** to evaluate Extra Trees, original MultiROCKET with Ridge, and the logistic-regression control. Section 8 writes `accuracy_comparison.png` and `time_comparison.png`.
-- For the **Crop feature-budget and sample-size comparisons**, run **9** after the setup and model cells. This section sweeps training-set sizes and feature counts on the original Crop test split. Use the full-training-set rows to inspect the report's official-split classifier comparisons (Tables 7–8) and the full sweep for Figure 3. Runtime varies by hardware and thread settings.
+- For **Tables 7–8 (Crop, official split)**, run Section **9** and filter `crop_grid.csv` to `TrainSize == 7200` and `Resample == 0`. Use `Accuracy` for Table 7 and `Total_s` (fit plus prediction) for Table 8. The CSV's `NumFeatures` column records nominal feature budgets.
+- For **Figure 3 (Crop scaling)**, use Section **9** and average `Accuracy` across resamples for each combination of model, training-set size and feature budget. The default sweep uses three runs. Run 0 uses the official split, and runs 1 and 2 use the authors' resampling indices.
 
 ## Source and results
 
