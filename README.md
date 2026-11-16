@@ -2,6 +2,8 @@
 
 This AI for Time Series project reproduces the original MultiROCKET baseline and evaluates **MultiRocket-eXtraTrees**, our enhanced model for time-series classification. The model replaces mean positive value (MPV) pooling with temporally partitioned proportion of positive values (TP-PPV) and uses an Extra Trees classifier. We selected the model on Crop in Stage A and benchmarked it against the original MultiROCKET in Stage B on Coffee, ECG200, Adiac, ACSF1 and Crop.
 
+On Crop, MultiRocket-eXtraTrees achieved **76.9% mean accuracy** in **36 seconds median runtime**, compared with **77.6%** and **65 seconds** for the original MultiROCKET with Ridge. That’s about **45% less runtime** with a **0.7 percentage-point drop in accuracy**, suggesting the enhanced model may be useful for larger datasets.
+
 ## Environment and data
 
 For the Stage A notebook, launch JupyterLab from the repository root using Python 3.13. In Windows PowerShell, run:
